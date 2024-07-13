@@ -30,18 +30,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    SampleDiTheme {
-        Greeting("Android")
-    }
-}
+/*
+* step 1 - make a baseClass so that it can be accesible throughout the application.
+* step 2 - register in manifest file (android:name=".BaseClass")
+* step 3 - 
+*
+*
+*
+*
+*
+* */
